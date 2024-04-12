@@ -1,2 +1,2 @@
-# Supportsphere
-A website to connect different helping communities with needy peoples.
+# DoctoBuddy
+Find doctors of your choice, Book Appointment, Get diagonised & Cured ------ All in one platform
