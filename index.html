@@ -5,8 +5,60 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>DoctoBuddy</title>
 	<link rel="icon" href="images/favicon.png">
+
 </head>
 <body>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+	<script>
+ // use a script tag or an external JS file
+ document.addEventListener("DOMContentLoaded", (event) => {
+  gsap.registerPlugin(TextPlugin)
+  // gsap code here!
+  gsap.to(".header", {x : 300 , color: "red"});
+});
+
+</script>
+	<div>
+		<div>
+			<div id="logo"></div>
+			<nav>
+				<ul>
+					<li><a class="nav nav-item1">Home</a></li>
+					<li><a class="nav nav-item2">Our Products</a></li>
+					<li><a class="nav nav-item3">Find doctors</a></li>
+					<li><a class="nav nav-item4">Signup</a></li>
+				</ul>
+			</nav>
+
+		</div>
+		<div class="main container">
+			<div class="main item1"><h1 class="header">Get Diagnosed</h1></div>
+			<div class="main item2"><h1 class="header">Find Doctors Near You</h1></div>
+		</div>
+		<div class="footer">
+			<div>
+				<ul>
+					<li><h1>Our Vlogs</h1></li>
+					<li><span><a>Health</a></span></li>
+					<li><span><a>Diseases</a></span></li>
+					<li><span><a>Maintain Diet</a></span></li>
+				</ul>
+				<ul>
+					<li><h1>Support</h1></li>
+					<li><span><a>Help & FAQs</a></span></li>
+					<li><span><a>Contact us</a></span></li>
+				</ul>
+				<ul>
+					<li><h1>Charity</h1></li>
+					<li><span><a>Animal Welfare</a></span></li>
+					<li><span><a>Donate to Orphanage</a></span></li>
+				</ul>
+			</div>
+		</div>
+
+
+	</div>
 	
 </body>
 </html>
